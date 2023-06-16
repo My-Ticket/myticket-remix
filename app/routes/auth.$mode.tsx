@@ -73,7 +73,7 @@ export default function Auth () {
     } else if (mode === "register") {
       setRegister(true);
     } else {
-      navigate("/404");
+      console.log(mode);
     }
   }, [mode])
 
